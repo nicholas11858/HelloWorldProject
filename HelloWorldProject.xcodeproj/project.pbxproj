@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		950060692652E37900412402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950060682652E37900412402 /* AppDelegate.swift */; };
 		9500606B2652E37900412402 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500606A2652E37900412402 /* SceneDelegate.swift */; };
-		9500606D2652E37900412402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500606C2652E37900412402 /* ViewController.swift */; };
 		950060702652E37900412402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9500606E2652E37900412402 /* Main.storyboard */; };
 		950060722652E37D00412402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950060712652E37D00412402 /* Assets.xcassets */; };
 		950060752652E37D00412402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950060732652E37D00412402 /* LaunchScreen.storyboard */; };
+		9500607F2652EC6C00412402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500606C2652E37900412402 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9500606D2652E37900412402 /* ViewController.swift in Sources */,
+				9500607F2652EC6C00412402 /* ViewController.swift in Sources */,
 				950060692652E37900412402 /* AppDelegate.swift in Sources */,
 				9500606B2652E37900412402 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.nikolayosipov.HelloWorldProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.nikolayosipov.HelloWorldProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
